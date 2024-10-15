@@ -1,6 +1,6 @@
 variable "isProd" {
     type = bool
-    default = false 
+    default = true 
 }
 
 variable "ami_id" {
