@@ -1,6 +1,6 @@
-variable "instance_names" {
-    type= list
-    default= ["mongodb","reddis","mysql","rabbitmq","catalogue","user","cart","shipping","payment","dispatch","web"]
+variable "isProd" {
+    type = bool
+    default = false 
 }
 
 variable "ami_id" {

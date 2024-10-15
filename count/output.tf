@@ -1,3 +1,3 @@
 output "instances_info" {
-    value = aws_instance.wed 
+    value = aws_instance.web
 }
