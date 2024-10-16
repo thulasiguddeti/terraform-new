@@ -8,7 +8,7 @@ resource "aws_security_group" "roboshop-all" {  #this is terraform name, for ter
             description       = ingress.value["description"]
             from_port         = ingress.value["from_port"]
             to_port           = ingress.value["to_port"]
-            protocol          = ingress.value["protocal"]
+            protocol          = ingress.value["protocol"]
             cidr_blocks       = ingress.value["cidr_blocks"]
         }
     }
